@@ -55,4 +55,4 @@ and then perform this same analysis for each district in turn.
 If different election types were listed in the same dataset, for instance,
 both congressional races and a statewide gubernatorial race, the votes for
 those elections could be tallied separately, according to which election
-for which the votes were cast.
+the votes were cast.
