@@ -59,11 +59,20 @@ Dictionary Data Structure. Each new row of input data is compared one-by-one
 to see if the County or Candidate on that row is already present in the Dictionary.
 If not, it is added accordingly and included in the analysis.
 
-However, if a more complex election were to be audited, for instance if the dataset
-also included statewide votes for Governor, the code would have to be modified
+As a test of this functionality, the analysis source code was copied and modified
+as `PyPoll_Challenge_TEST.py`, and the original `election_results.csv`
+source file was copied and renamed `election_results_TEST.csv`.
+
+To `election_results_TEST.csv`, beginning on line 100, 100,000 sample votes were added for ***TEST COUNTY*** and ***TEST CANDIDATE***, under ***Ballot ID: 0000000***. The analysis was re-run to output `election_results_TEST.txt`.
+
+To see how these TEST VOTES affect the results, a screenshot of `election_results_TEST.txt` can be seen below in [Additional Resources](https://github.com/TPapiernik/Module_03_Challenge#additional-resources): Figure 3.
+
+If a more complex election audit situation were to be taken into consideration, for instance if the dataset
+also included statewide votes for Governor or Senator, the code would have to be modified
 accordingly in order so that these votes would be tallied correctly according
-to election rules. The nature of these modifications would necessarily depend
-on the structure of the Input data provided.
+to election rules.
+
+One way to take this into consideration would be to add an additional Boolean `Statewide?` column to the `election_results.csv` Input File. The vote on a given row could be checked in an if statement and added to a separate set of Statewide Candidates and Votes Dictionaries. For further classification, a `Race Type` String Categorical column could also be added to take into account agreed-upon inputs such as **Congress**, **Senate**, **Governor**, etc. and these votes could be tallied by category accordingly.
 
 
 ## Additional Resources
@@ -75,3 +84,7 @@ Figure 1: Terminal Output Sample
 Figure 2: File Output Sample
 
 ![Figure 2](analysis/file_output.png "Figure 2: File Output Sample")
+
+Figure 3: Test Output for Additional County and Additional Candidate
+
+![Figure 3](analysis/file_output_TEST.png "Figure 3: File Output TEST Sample")
