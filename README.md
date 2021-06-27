@@ -19,15 +19,15 @@ A Colorado Board of Elections employee has given you the following tasks to comp
 The analysis of the election show that:
 1. There were 369,711 votes cast in the election.
 2. The candidates were:
-  -  Charles Casper Stockham
-  -  Diana DeGette
-  -  Raymon Anthony Doane
+	-  Charles Casper Stockham
+	-  Diana DeGette
+	-  Raymon Anthony Doane
 3. The candidate results were:
-  -  Charles Casper Stockham received 23.0% of the vote and 85,213 number of votes.
-  -  Diana DeGette received 73.8% of the vote and 272,892 number of votes.
-  -  Raymon Anthony Doane received 3.1% of the vote and 11,606 number of votes.
+	-  Charles Casper Stockham received 23.0% of the vote and 85,213 number of votes.
+	-  Diana DeGette received 73.8% of the vote and 272,892 number of votes.
+	-  Raymon Anthony Doane received 3.1% of the vote and 11,606 number of votes.
 4. The winner of the election was:
-  -  Diana DeGette, who received 73.8% of the vote and 272,892 number of votes.
+	-  Diana DeGette, who received 73.8% of the vote and 272,892 number of votes.
 5. The counties where votes were cast were:
 	- Jefferson
 	- Denver
@@ -43,7 +43,7 @@ The Analysis Code to accomplish the stated Tasks requested in this analysis
 was written in Python. It was written so as to provide output simultaneously
 to the Terminal for immediate review, and to a text file on disk for storage
 and later review. A quick glance of the identical outputs for these results can be seen below in
-`Additional Resources` Figure 1 for Terminal Output, and Figure 2 for File Output.
+[Additional Resources](https://github.com/TPapiernik/Module_03_Challenge#additional-resources) Figure 1 for Terminal Output, and Figure 2 for File Output.
 
 ## Election-Audit Summary
 
@@ -70,4 +70,4 @@ on the structure of the Input data provided.
 
 Figure 1: Terminal Output Sample
 
-[!Figure 1](analysis/terminal_output.png "Figure 1: Terminal Output Sample")
+[! Figure 1](analysis/terminal_output.png "Figure 1: Terminal Output Sample")
