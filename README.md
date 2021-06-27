@@ -72,7 +72,7 @@ also included statewide votes for Governor or Senator, the code would have to be
 accordingly in order so that these votes would be tallied correctly according
 to election rules.
 
-One way to take this into consideration would be to add an additional Boolean `Statewide?` column to the `election_results.csv` Input File. The vote on a given row could be checked in an if statement and added to a separate set of Statewide Candidates and Votes Dictionaries. For further classification, a `Race Type` String Categorical column could also be added to take into account agreed-upon inputs such as **Congress**, **Senate**, **Governor**, etc. and these votes could be tallied by category accordingly.
+One way to take this into consideration would be to add an additional Boolean `Statewide?` column to the `election_results.csv` Input File. The vote on a given row could be checked in an if statement and added to a separate set of Statewide Candidates and Votes Dictionaries. For further classification, a `Race Type` String Categorical column could also be added to take into account agreed-upon inputs such as **Congress**, **Senate**, **Governor**, etc. and these votes could be tallied separately by category.
 
 
 ## Additional Resources
