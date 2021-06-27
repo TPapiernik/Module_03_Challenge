@@ -43,7 +43,7 @@ The Analysis Code to accomplish the stated Tasks requested in this analysis
 was written in Python. It was written so as to provide output simultaneously
 to the Terminal for immediate review, and to a text file on disk for storage
 and later review. A quick glance of the identical outputs for these results can be seen below in
-[Additional Resources](https://github.com/TPapiernik/Module_03_Challenge#additional-resources) Figure 1 for Terminal Output, and Figure 2 for File Output.
+[Additional Resources](https://github.com/TPapiernik/Module_03_Challenge#additional-resources): Figure 1 for Terminal Output, and Figure 2 for File Output.
 
 ## Election-Audit Summary
 
@@ -70,4 +70,8 @@ on the structure of the Input data provided.
 
 Figure 1: Terminal Output Sample
 
-[! Figure 1](analysis/terminal_output.png "Figure 1: Terminal Output Sample")
+![Figure 1](analysis/terminal_output.png "Figure 1: Terminal Output Sample")
+
+Figure 2: File Output Sample
+
+![Figure 2](analysis/file_output.png "Figure 2: File Output Sample")
